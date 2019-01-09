@@ -20,4 +20,6 @@ end
 def find_the_cheese(cheddar_cheese)
   cheddar_cheese = ["banana", "cheddar", "sock"]
     cheddar_cheese.include?("cheddar")
+    return true
   end
+end
