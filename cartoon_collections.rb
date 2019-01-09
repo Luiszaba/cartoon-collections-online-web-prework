@@ -13,7 +13,7 @@ def summon_captain_planet(elements)
 
 def long_planeteer_calls(short_words)
   short_words = ["puff", "go", "two"]
-  short_words.any? do |calls| short_words.length >= 3
+  short_words.any? do |call| short_words.length >= 3
   end
 end
 
