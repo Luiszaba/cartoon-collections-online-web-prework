@@ -22,4 +22,3 @@ def find_the_cheese(cheddar_cheese)
     cheddar_cheese.include?("cheddar")
     return true
   end
-end
