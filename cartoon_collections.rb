@@ -12,7 +12,7 @@ def summon_captain_planet(elements)
 
 
 def long_planeteer_calls(calls)
-  calls.include
+  calls
 
   end
 end
