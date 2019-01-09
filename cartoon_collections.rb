@@ -18,6 +18,5 @@ end
 
 
 def find_the_cheese(cheese)
-  
-    cheese.include?("cheddar")
+    cheese.include?(cheddar)
   end
