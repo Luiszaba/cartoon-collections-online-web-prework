@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   dwarf = ["Dopey", "Grumpy", "Bashful"]
-  dwarves.each.with_index(1) do |dwarf, index|
-  puts "#{index}. #{dwarf}"
+  dwarves.each.with_index do |dwarf, index|
+  puts "#{index+1}. #{dwarf}"
 end
 end
 
@@ -19,7 +19,7 @@ end
 
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheeses.find do |cheese|
-    cheese_types.include?(cheese)
+  cheeses.find do |cheddar|
+    cheese_types.include?(cheddar)
   end
 end
