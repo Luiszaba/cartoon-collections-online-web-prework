@@ -19,6 +19,6 @@ end
 
 def find_the_cheese(cheese)
   cheddar_cheese = ["banana", "cheddar", "sock"]
-    cheddar_cheese.include?("cheddar")
-    return true
+  cheddar_cheese.find do |cheese|
+    cheese.include?("cheddar")
   end
